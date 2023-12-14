@@ -23,7 +23,7 @@ def DetCalc(A:List[List]) -> float:
 
 
 A = np.array([[3.0, 7,-5], [8, 1, 0], [3,3,2]])
-#D = np.linalg.det(A)
+D = np.linalg.det(A)
 print(A)
 print(D)
 print(Determinant(A))
