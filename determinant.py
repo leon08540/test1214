@@ -21,7 +21,6 @@ def DetCalc(A:List[List]) -> float:
     return A[0,0]*A[1,1] - A[1,0]*A[0,1]
 
 
-
 A = np.array([[3.0, 7,-5], [8, 1, 0], [3,3,2]])
 D = np.linalg.det(A)
 print(A)
